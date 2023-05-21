@@ -1,6 +1,10 @@
+// import React, {useEffect, useState} from 'react';
+export const Name = "Gaukhar";
+
+
 
 export default function NavBar() {
-    const Name = "Gaukhar";
+  
     return(
         <div
          className="d-flex flex-raw" style={{width: "100%", justifyContent: "space-between", borderBlockColor: "none"}}>
@@ -9,13 +13,13 @@ export default function NavBar() {
             </div>
              
             <div className="d-flex flex-raw" style={{width: "50%", justifyContent: "flex-end", gap: "14px", alignItems: "center", paddingTop: "5px"}}>
-                <p>About</p>
-                <p>Experience</p>
-                <p>Projects</p>
-                <p>Contacts</p>
+                {/* <p><a href="#aboutMe">About<a/></p> */}
+                <p style={{color: "wheat"}}><a href="#aboutMe">About</a></p> 
+                <p><a href="#exper">Experience</a></p>
+                <p><a href="#projects">Projects</a></p>
+                <p><a href="#contacts">Contacts</a></p>
 
             </div>
         </div>
-    )
+    );
 }
-// align-items-start

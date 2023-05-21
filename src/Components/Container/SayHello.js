@@ -1,12 +1,10 @@
-import {Name} from "../navbar";
-import React from "react";
 
- export default function Intro(){
+
+export default function SayHello(){
     return(
-    <div className="d-flex flex-column mt-5" style={{width: "100%", justifyContent: "flex-start", paddingBottom: "100px", color: "wheat"}}>
+    <div id = "contacts" className="d-flex flex-column mt-5" style={{width: "100%", justifyContent: "flex-start", paddingBottom: "100px", color: "wheat"}}>
         <div className="d-flex flex-column mt-5" style={{justifyContent: "flex-start"}}>
-            <h2 style = {{fontSize: "60px"}}>Hi, I'm {Name}, </h2>
-            <h2 style = {{fontSize: "60px"}}>I build things for the web.</h2>  
+            <h2 style = {{fontSize: "60px"}}>Hello, my friends!</h2>
         </div>
        <div className="d-flex flex-column mt-3">
         <p style={{fontSize: "20px"}}>I’m software developer and this is my portfolio.</p>
@@ -21,15 +19,12 @@ import React from "react";
             paddingBottom: "24px",
             fontWeight: "700",
             color: "wheat"
-            }}>Check out my CV
+            }}>Get In Touch
             </button>
         </div>
         
        </div>
        
     </div>
-    )
+    );
 }
-
-// style = {{fontSize: "20px"}}
-// style={{fontSize: "20px"}}
